@@ -1,0 +1,11 @@
+{
+  "name": "@e2e/playwright",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.4.4",
+    "@faker-js/faker": "^7.5.0",
+    "@playwright/experimental-ct-react": "^1.26.0",
+    "axe-html-reporter": "2.2.3",
+    "lighthouse": "^9.6.7",
+    "playwright-lighthouse": "^2.2.2"
+  }
+}

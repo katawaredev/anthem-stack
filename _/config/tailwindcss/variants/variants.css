@@ -1,0 +1,8 @@
+@tailwind variants;
+
+/*
+FIXME: utilities is required for variants to work, but we don't need them.
+These will be stripped in production.
+*/
+/* prettier-ignore */
+{{@tailwind utilities;}}

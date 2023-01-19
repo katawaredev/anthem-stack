@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" style="background:0 0" viewBox="0 0 170.42 170.42">
+  <defs>
+    <filter id="a" width="300%" height="300%" x="-100%" y="-100%" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#de530f" result="flood1"/>
+      <feFlood flood-color="#fff" flood-opacity=".5" result="flood2"/>
+      <feImage xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAwcHgiIGhlaWdodD0iMTAwMHB4Ij48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjQiIGhlaWdodD0iNCI+PHBhdGggZD0iTSAtNCAtNCBMIDggOCBNIC04IC00IEwgNCA4IE0gLTQgLTggTCA4IDQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3BhdHRlcm4pIi8+PC9zdmc+" width="2000" height="1000" x="0" y="0" result="image"/>
+      <feTile in="image" result="tile"/>
+      <feComposite in="flood1" in2="tile" operator="in" result="tile2"/>
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="10"/>
+      <feComposite in="tile2" in2="blur" operator="in" result="cloud"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="dilate"/>
+      <feComposite in="flood2" in2="dilate" operator="in" result="base"/>
+      <feMerge>
+        <feMergeNode in="cloud"/>
+        <feMergeNode in="base"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#a)" transform="translate(-166 48)">
+    <path fill="#0f7288" d="M251.6 51q-1.8-.8-3.9-2.1-2.1-1.3-4.2-2.7-2.1-1.4-4.2-2.5t-3.9-1.5l.2.6-.4.4q2 .6 4.1 2.1 2.1 1.5 4.5 3.1t4.9 3q2.5 1.4 5.1 2l2.8 1q3 .6 6 1.3 3 .7 7 1.1 2.8 0 6.7-.4 3.9-.4 7.9-2.6-3.4 2.2-6.8 2.8-3.4.6-6 .6-7.2 0-13.8-1.2-6.6-1.2-12.2-5l-8.4-5.6q-2.2-1-4.4-2.3-2.2-1.3-4.4-1.3-2.4 0-3.4 2.7t-1 4.5q-1.2 0-2.5.2t-2.5.2q-2.2 0-2.2-2.8 0-1 .2-1.8l-2.2-.2q-1.6 3.6-3.6 6t-4.2 2.4q-2.8 0-4-2.9-1.2-2.9-1.2-7.7 0-7 2.6-14 2.2-2.8 5.7-5.6t10.9-2.8q8 0 13.7 1 5.7 1 10.2 2.6 4.5 1.6 8.1 3.6 3.6 2 7.4 3.8 8.2 3.8 12.4 3.8 1.8-1.6 2.4-4.2.6-2.6.9-5 .3-2.4.9-4.2.6-1.8 2.4-1.8.4 0 1.6.4-.6 2-.9 4-.3 2-.7 3.8 1-3.6 2.6-7.4 1 .8 2.6.8l.4-.6q.4-.8 1.1-1.6.7-.8 1.6-1.5.9-.7 2.1-.7 2.2 0 3.8 1.7 1.6 1.7 2.6 3.3-1 1.6-1.7 3.4-.7 1.8-1.1 3.8-2 7.2-4.2 11.7-2.2 4.5-4.7 7t-5.4 3.4q-2.9.9-6.3.9-4.6 0-9.9-.9-5.3-.9-9.9-2.3 3.8 1.4 8.4 2.6 4.6 1.2 9.8 1.2 7.8 0 12.2-3.3 4.4-3.3 6.9-7.9 2.5-4.6 3.9-9.6t3-8.4q1.4 2.4 1.4 4.4 0 2.8-2 9.2-2 6.4-6.6 12.2l-1.8-1.4q-1.8 2.8-4.1 4.3t-4.8 2.3q-2.5.8-4.8 1-2.3.2-4.1.2-4 0-7.1-.8-3.1-.8-5.9-1.8l-2.8-1q-.8-.2-1.4-.4-.6-.2-1.4-.6zm20.6-12.4q2.6 0 3.8-2.2-1.8 1.8-5 1.8-4.4-.6-9.4-2.8 2.4 1.4 5.4 2.3 3 .9 5.2.9zm14.2 13.8-1.2.8q.4-.4 1.2-.8z"/>
+  </g>
+</svg>

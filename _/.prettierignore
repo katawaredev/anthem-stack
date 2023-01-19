@@ -1,0 +1,12 @@
+node_modules
+
+/build
+/public/build
+.env
+
+/cypress/reports
+
+/app/styles/tailwind.css
+/app/styles/tailwind-base.css
+/public/~/styles/tailwind-variants.css
+/public/~/site.webmanifest

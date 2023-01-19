@@ -1,0 +1,10 @@
+/* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
+
+/* Reset rules and default styles applied to plain HTML elements */
+@tailwind base;
+
+/* Class-based styles that you want to be able to override with utilities */
+@tailwind components;
+
+/* Small, single-purpose classes that should always take precedence over any other styles */
+@tailwind utilities;
