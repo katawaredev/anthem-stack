@@ -61,7 +61,7 @@ const main = async ({ packageManager, rootDirectory }) => {
   const ENV_PATH = path.join(rootDirectory, ".env");
   const DOCKERFILE_PATH = path.join(rootDirectory, "Dockerfile");
 
-  const REPLACER = "discord-stack-template";
+  const REPLACER = "anthem-stack-template";
 
   const DIR_NAME = path.basename(rootDirectory);
   const SUFFIX = getRandomString(2);
